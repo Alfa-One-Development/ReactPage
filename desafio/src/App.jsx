@@ -1,3 +1,4 @@
+import Lado from "./components/lado";
 import Footer from './components/footer'
 import MeioDP from './components/Meio'
 import Img from './assets/gmail.png'
@@ -7,6 +8,10 @@ function App() {
 
   return (
     <>
+
+<Lado valor1 = "Amizade"
+      valor2 = "Proatividade"
+      valor3 = "União" />
         <section className="meiasso">
 <MeioDP nome = "GrupOne001"></MeioDP>
 </section>
@@ -21,4 +26,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
