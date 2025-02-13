@@ -1,11 +1,15 @@
 
-import Header from './Components/Header';
-function Header() {
+import "./Header.css" 
+function Header(props) {
 
     return(
         <>
+
+<div className="Reboco">
+<p>{props.texto}</p>
+<img src= {props.Img} alt="Logo"/>
+</div>
         
-        <img src="/src" alt="LogoG1" />
         </>
     )
 }

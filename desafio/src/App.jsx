@@ -1,13 +1,20 @@
-import 'Header.jsx'
+import Header from './Components/Header'
+import ImgGroup from './assets/LogoG1.png'
 import './App.css'
 
 function App() {
 
   return (
     <>
-<h1>Hello Group</h1>
+      <Header
+      Img={ImgGroup}
+      texto=
+      "DESAFIO 1 DE PROPS - REACT"
+      />
+      
     </>
+    
   )
 }
 
-export default App
+export default App;
