@@ -7,7 +7,7 @@
     color: rgb(133, 127, 127);
     width: 80vw;
     border: 2px solid rgb(64, 64, 64);
-    border-radius: 20px;
+    border-radius: 0 0 20px 20px;
     height: 20vh;
     justify-content: space-evenly;
 
