@@ -1,0 +1,51 @@
+.footer {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: row;
+    background-color: #2f2f30;
+    color: rgb(133, 127, 127);
+    width: 80vw;
+    border: 2px solid rgb(64, 64, 64);
+    border-radius: 0 0 20px 20px;
+    height: 20vh;
+    justify-content: space-evenly;
+
+}
+
+.bloco{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+
+   
+     p{
+        font-size: 1.15em;
+        padding: 0.5em;
+      }
+
+      img {
+        width: 2vw;
+        height: 4vh;
+
+    }
+
+}
+
+.GrupoImg{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    p{
+        font-size: 1.15em;
+        padding: 0.5em;
+      }
+
+      img {
+        width: 4vw;
+        height: 6vh;
+        border-radius: 10%;
+
+    }
+}
