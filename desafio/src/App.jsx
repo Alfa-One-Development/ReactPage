@@ -1,5 +1,6 @@
 import Footer from './components/footer'
-import Img from './assets/gmail.png'
+import imgGmail from './assets/gmail.png'
+import imgInsta from './assets/instagram.png'
 import './App.css'
 
 function App() {
@@ -7,9 +8,10 @@ function App() {
   return (
     <>
     <Footer text = "GrupOne001@gmail.com"
-    img = {Img}
-    texto = "Copyright 2021 GrupOne001"
-    imge = {Img}
+    imgGmail = {imgGmail}
+    texto = "GrupOneDesenvolvedor_"
+    imgInsta = {imgInsta}
+    
     /> 
     </>
   )
