@@ -5,19 +5,47 @@
     flex-direction: row;
     background-color: #2f2f30;
     color: rgb(133, 127, 127);
-    padding: 2.5vw;
-    width: 90vw;
+    width: 80vw;
     border: 2px solid rgb(64, 64, 64);
-  
-    p{
-      font-size: 1.15em;
-      padding: 0.5em;
+    border-radius: 20px;
+    height: 20vh;
+    justify-content: space-evenly;
+
+}
+
+.bloco{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+
+   
+     p{
+        font-size: 1.15em;
+        padding: 0.5em;
+      }
+
+      img {
+        width: 2vw;
+        height: 4vh;
+
     }
 
-    img {
-        width: 5em;
-        height: 5em;
+}
+
+.GrupoImg{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    p{
+        font-size: 1.15em;
         padding: 0.5em;
-        object-fit: cover;
+      }
+
+      img {
+        width: 4vw;
+        height: 6vh;
+        border-radius: 10%;
+
     }
 }
