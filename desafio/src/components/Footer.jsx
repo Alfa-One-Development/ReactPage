@@ -13,7 +13,7 @@ function Footer(props) {
         <p>{props.texto}</p>
         </div>
 
-        <div className="bloco">
+        <div className="GrupoImg">
         <img src={props.imgGrupo} alt="Logo" />
         <p>{props.textos}</p>
         </div>
