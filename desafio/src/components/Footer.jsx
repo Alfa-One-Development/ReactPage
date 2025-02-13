@@ -5,17 +5,17 @@ function Footer(props) {
         <footer className="footer">
             <div className="bloco">
         <img src={props.imgGmail} alt="Logo" />
-        <p>{props.text}</p>
+        <p>{props.textEmail}</p>
         </div>
 
         <div className="bloco">
         <img src={props.imgInsta} alt="Logo" />
-        <p>{props.texto}</p>
+        <p>{props.textInsta}</p>
         </div>
 
         <div className="GrupoImg">
         <img src={props.imgGrupo} alt="Logo" />
-        <p>{props.textos}</p>
+        <p>{props.textGroup}</p>
         </div>
 
         </footer>
