@@ -14,9 +14,6 @@ function App() {
 <Lado valor1 = "Amizade"
       valor2 = "Proatividade"
       valor3 = "União" />
-        <section className="meiasso">
-<MeioDP nome = "GrupOne001"></MeioDP>
-</section>
 
     <Footer text = "GrupOne001@gmail.com"
     img = {Img}
