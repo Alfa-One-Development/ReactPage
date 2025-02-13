@@ -1,14 +1,14 @@
+import "./Header.css"
 
-import "./Header.css" 
 function Header(props) {
 
     return(
         <>
 
-<div className="Reboco">
-<p>{props.texto}</p>
-<img src= {props.Img} alt="Logo"/>
-</div>
+<header className="Reboco">
+<h1>{props.titulo}</h1>
+<img src= {props.imageLogo} alt="Logo"/>
+</header>
         
         </>
     )

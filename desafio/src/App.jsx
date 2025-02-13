@@ -1,5 +1,5 @@
-  import Header from './Components/Header'
-import ImgGroup from './assets/LogoG1.png'
+import Header from "./Components/Header";
+import imageLogo from "./assets/LogoG1.png";
 import Lado from "./components/lado";
 import Footer from "./components/footer";
 import imgGmail from "./assets/gmail.png";
@@ -16,11 +16,8 @@ import "./App.css";
 function App() {
   return (
     <>
-      <Header
-      Img={ImgGroup}
-      texto=
-      "DESAFIO 1 DE PROPS - REACT"
-      />
+      <Header imageLogo={imageLogo} titulo="DESAFIO 1 DE PROPS - REACT" />
+
       <section className="main">
         <article className="meiasso">
           <MeioDP nome="Felipe Cagnin" image={Felipe} hobby="Flauta"></MeioDP>

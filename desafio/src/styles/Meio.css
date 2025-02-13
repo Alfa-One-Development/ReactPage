@@ -5,7 +5,8 @@
         align-items: center;
         justify-content: center;
         background-color: #313947;
-    
+        padding: 1.5vw;
+
         article {
             display: flex;
             flex-direction: column;
