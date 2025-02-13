@@ -1,13 +1,13 @@
-import "./ladoo.css"
+import "../styles/lado.css";
 
-function Lado (props){
-return(
+function Lado(props) {
+  return (
     <div className="css">
-        <p>{props.valor1}</p>
-        <p>{props.valor2}</p>
-        <p>{props.valor3}</p>
-    </div>   
-)
+      <p>{props.valor1}</p>
+      <p>{props.valor2}</p>
+      <p>{props.valor3}</p>
+    </div>
+  );
 }
 
-export default Lado
+export default Lado;

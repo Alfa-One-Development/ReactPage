@@ -1,6 +1,6 @@
 import Header from "./Components/Header";
 import imageLogo from "./assets/LogoG1.png";
-import Lado from "./components/lado";
+import Lado from "./components/Lado";
 import Footer from "./components/footer";
 import imgGmail from "./assets/gmail.png";
 import imgInsta from "./assets/instagram.png";
